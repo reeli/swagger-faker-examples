@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "@ts-tool/ts-codegen-cli": "^1.0.3"
+    "@ts-tool/ts-codegen-cli": "^1.0.5"
   },
   "scripts": {
     "codegen": "ts-codegen"
