@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@ts-tool/ts-codegen-cli": "^1.0.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "codegen": "ts-codegen"
   },
   "repository": {
     "type": "git",
