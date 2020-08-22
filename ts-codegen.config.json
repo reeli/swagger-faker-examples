@@ -1,10 +1,10 @@
 {
   "output": ".output",
-  "actionCreatorImport": "import { createRequestAction } from 'examples/utils/requestActionCreators';\n\n",
+  "actionCreatorImport": "import { createRequestAction } from 'utils/requestActionCreators';\n\n",
   "clients": [],
   "data": [
-    "./examples/data/swagger.json",
-    "./examples/data/openapi.json"
+    "./data/swagger.json",
+    "./data/openapi.json"
   ],
   "options": {
     "typeWithPrefix": true,
