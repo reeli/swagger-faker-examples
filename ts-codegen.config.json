@@ -1,6 +1,6 @@
 {
-  "output": ".output",
-  "actionCreatorImport": "import { createRequestAction } from 'utils/requestActionCreators';\n\n",
+  "output": "clients",
+  "actionCreatorImport": "import { createRequestAction } from '../utils/requestActionCreators';\n\n",
   "clients": [],
   "data": [
     "./data/swagger.json",
