@@ -1,13 +1,10 @@
 {
-  "output": "clients",
-  "actionCreatorImport": "import { createRequestAction } from '../utils/requestActionCreators';\n\n",
-  "clients": [],
-  "data": [
+  "outputFolder": "clients",
+  "requestCreateLib": "../utils/createRequest",
+  "requestCreateMethod": "createRequest",
+  "apiSpecsPaths": [
+    "https://petstore.swagger.io/v2/swagger.json",
     "./data/swagger.json",
     "./data/openapi.json"
-  ],
-  "options": {
-    "typeWithPrefix": true,
-    "backwardCompatible": true
-  }
+  ]
 }
