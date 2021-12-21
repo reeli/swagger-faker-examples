@@ -1,25 +1,22 @@
 {
-  "name": "@reeli/ts-codegen-examples",
+  "name": "@reeli/swagger-faker-examples",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "@ts-tool/ts-codegen-cli": "^3.1.2",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.2"
+    "swagger-faker": "^3.0.0"
   },
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "codegen": "rm -rf clients && ts-codegen"
+    "start": "rm -rf mock-server && swagger-faker gen && swagger-faker run"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reeli/ts-codegen-examples.git"
+    "url": "git+https://github.com/reeli/swagger-faker-examples.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reeli/ts-codegen-examples/issues"
+    "url": "https://github.com/reeli/swagger-faker-examples/issues"
   },
-  "homepage": "https://github.com/reeli/ts-codegen-examples#readme"
+  "homepage": "https://github.com/reeli/swagger-faker-examples#readme"
 }
