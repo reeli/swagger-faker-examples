@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "swagger-faker": "^3.0.0"
+    "swagger-faker": "^3.1.0"
   },
   "scripts": {
     "start": "rm -rf mock-server && swagger-faker gen && swagger-faker run"
