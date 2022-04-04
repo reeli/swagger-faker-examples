@@ -7,7 +7,7 @@
     "swagger-faker": "^3.1.0"
   },
   "scripts": {
-    "start": "rm -rf mock-server && swagger-faker gen && swagger-faker run"
+    "start": "swagger-faker gen && swagger-faker run"
   },
   "repository": {
     "type": "git",
